@@ -11,8 +11,12 @@
 
 
 function gerar(){
-let fone = document.getElementById("number").value.replaceAll(".", "");
-window.open("https://wa.me/" + fone);
+  let fone = document.getElementById("number").value.replaceAll(".", "");
+  if(fone.length < 10){
+    alert("Número inválido")
+  }else{
+    window.open("https://wa.me/" + fone);
+  }
 }
 
 
@@ -28,7 +32,7 @@ window.open("https://wa.me/" + fone);
    <div class="row">
     <div class="col-sm-2"></div>
      <div class="col-sm-8"> 
-      <div style="background-color: rgb(106, 101, 101);padding: 10px;">
+      <div style="background-color: rgb(106, 101, 101);padding: 10px;border-radius: 10px;">
         <form >
           <div class="form-group">
             <label style="color: white;" for="number">Número do telfone com DDD</label>
