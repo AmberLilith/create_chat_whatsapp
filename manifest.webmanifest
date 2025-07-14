@@ -5,7 +5,7 @@
     "scope": "/create_chat_whatsapp/",
     "start_url": "/create_chat_whatsapp/",
     "name": "Envia Mensagem Número Desconhecido",
-    "short_name": "Número Desconhecido",
+    "short_name": "Criar Chat Zap",
     "description": "Enviar mensagem para número sem ter que adicioná-lo na agenda.",
     "icons": [
         {
